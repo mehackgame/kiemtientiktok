@@ -1,7 +1,10 @@
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Times New Roman", serif;
     margin: 0;
     padding: 0;
+}
+body {
+    background-image: url("../images/background.jpg");
 }
 .body {
     padding: 0 0 20px;
@@ -18,7 +21,7 @@ header {
 }
 
 header .logo {
-    font-size: 1.5em;
+    font-size: 3em;
     font-weight: bold;
 }
 
@@ -38,6 +41,7 @@ nav ul li a {
     color: white;
     text-align: center;
     padding: 5em 2em;
+    
 }
 
 .hero .btn {
@@ -49,6 +53,7 @@ nav ul li a {
     border-radius: 8px;
     margin-top: 1em;
     display: inline-block;
+    
 }
 
 .features {
@@ -72,4 +77,59 @@ footer {
     color: white;
     text-align: center;
     padding: 1em;
+}
+
+/* CSS Nền màu xanh Cyan y hệt trong ảnh */
+body { 
+    font-family: Arial, sans-serif; 
+    text-align: center; 
+    margin: 0;
+    padding-top: 50px; 
+    background-color: #00d4ff; 
+}
+
+/* CSS Nút nền trắng, viền cam, chữ đen giống hệt ảnh */
+.btn-hack { 
+    background-color: #ffffff; 
+    color: #000000; 
+    border: 2px solid #ff6600; 
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 50px; 
+    display: block; 
+    margin: 15px auto;
+    width: 90%; 
+    max-width: 500px; 
+    box-sizing: border-box;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-hack:hover {
+    background-color: #fff5eb; /* Hover nhẹ ngả cam */
+}
+
+/* Hiệu ứng khi nút đang đếm ngược (Màu xám) */
+.btn-waiting {
+    border-color: #999999 !important;
+    color: #555555 !important;
+    cursor: not-allowed;
+    background-color: #f0f0f0 !important;
+}
+
+/* Hiệu ứng khi nút đã đếm xong (Màu xanh dương giống nút tải trong ảnh) */
+.btn-ready {
+    background-color: #4285f4 !important;
+    border-color: #4285f4 !important;
+    color: #ffffff !important;
+}
+/* CSS chuẩn cho thẻ h3 */
+h3 {
+    font-family: Arial, sans-serif !important;
+    color: #ffffff !important;
+    text-align: center !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    margin: 20px 0 !important;
 }
